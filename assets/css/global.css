@@ -1,0 +1,109 @@
+/* Import partial files */
+/* Site Variables COLORS */
+/* Typography */
+@import url(https://fonts.googleapis.com/css?family=Lobster|Cabin);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lobster", serif; }
+
+p {
+  font-family: "Cabin", sans-serif; }
+
+a {
+  color: #660066;
+  text-decoration: none; }
+
+a:hover {
+  color: #330033; }
+
+.active {
+  color: #333333; }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 10px; }
+
+#nav {
+  margin-bottom: 0;
+  padding-top: 10px;
+  float: right; }
+
+/* Structure - WHAT PIECES DO and their QUERIES*/
+html {
+  background-color: #F2F2F2; }
+
+body {
+  margin: 0; }
+
+.about {
+  margin-top: 20px; }
+  @media (min-width: 400px) {
+    .about img {
+      float: none; } }
+  @media (min-width: 550px) {
+    .about img {
+      float: right;
+      height: 250px; } }
+  @media (min-width: 830px) {
+    .about img {
+      float: right;
+      height: 400px; } }
+
+.hero {
+  margin-top: 20px; }
+
+.header {
+  background-color: #FFFFFF;
+  padding-top: 10px; }
+
+.box {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px; }
+  .box h4 {
+    padding-top: 75px;
+    text-align: center; }
+  @media (min-width: 1024px) {
+    .box {
+      height: 250px;
+      width: 250px;
+      margin-left: 15px; } }
+  @media (max-width: 550px) {
+    .box {
+      margin-left: 60px; } }
+
+.footer {
+  background: url("images/background.png");
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem; }
+  .footer p {
+    margin-top: 50px;
+    margin-right: 30px; }
+  @media (max-width: 548px) {
+    .footer {
+      position: relative; } }
+
+.demo {
+  background-color: #FFFFFF;
+  float: left;
+  width: 220px;
+  height: 190px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+/* Header */
+/* Sections */
+/* Buttons */
+.btn {
+  background: #F2F2F2;
+  color: #333333;
+  display: inline-block; }
+
+/* Footer */

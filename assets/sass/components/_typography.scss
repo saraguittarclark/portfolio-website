@@ -1,0 +1,35 @@
+/* Typography */
+@import url(https://fonts.googleapis.com/css?family=Lobster|Cabin);
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lobster", serif;
+}
+
+p {
+	font-family: "Cabin", sans-serif;
+}
+
+a {
+	color: $purple;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darken($purple, 10%);
+}
+
+.active {
+	color: $dark_gray;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+#nav {
+	margin-bottom: 0;
+	padding-top: 10px;
+	float: right;
+}
