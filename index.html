@@ -6,17 +6,7 @@
 	<link rel="icon" type="image" href="assets/css/images/spiral.ico"/>
 	<!-- add meta viewport thingie -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<!-- styling nav seperators with css -->
-	<style type="text/css">
-		#nav li:after {
-			content: "|";
-		}
 
-		#nav li:last-child:after {
-			content: "";
-		} 
-	</style>
 </head>
 <body>
 <!--Header-->
@@ -25,15 +15,15 @@
 		<div class="header">
 			<div class="container">
 				<div class="row">
-					<div class="four columns">
+					<div class="six columns">
 						<h2><a href="index.html" class="active">Sara Clark</a> <img src="assets/css/images/spiral-smaller.png" id="logo" /></h2>
 					</div>
-					<div class="eight columns">
+					<div class="six columns">
 						<ul id="nav">
 							<!-- no need to use h5's just style the list items -->
-							<li><h5><a href="">Design</a></h5></li>
-							<li><h5><a href="">Development</a></h5></li>
-							<li><h5><a href="about-contact.html">About & Contact</a></h5></li>
+							<li><a href="design.html">Design</a></li>
+							<li><a href="">Development</a></li>
+							<li><a href="about-contact.html">About</a></li>
 						</ul>
 					</div><!--/6-->
 				</div><!--/row-->
@@ -42,7 +32,7 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="twelve columns hero">
+				<div class="twelve columns" id="hero">
 					<h3>Hi, there!</h3>
 					<p>I am a web designer and frontend developer in Virginia.</p>
 					<p>I am a graduate of <a href="http://www.bloc.io">Bloc's</a> <a href="https://www.bloc.io/ux-design-bootcamp"> UX/UI Design course</a> and am enrolled in <a href="https://www.bloc.io/frontend-development-bootcamp">Frontend Web Development</a>.</p>
@@ -80,4 +70,3 @@ function toggleDiv(hide) {
 </body>
 </html>
 
-<!--1/3, 2/3 gradient 0-->

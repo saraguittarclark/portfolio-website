@@ -33,6 +33,18 @@ body {
 .header {
 	background-color: $real_white;
 	padding-top: 10px;
+	@media (max-width: 820px) {
+		.six.columns {
+			float: left;
+			margin-left: 0px;
+			width: 98%;
+		}
+	}
+	@media (min-width: 820px) {
+		#nav {
+			float: right;
+		}
+	}
 }
 
 //BOXES
@@ -76,15 +88,22 @@ body {
 	} 
 }
 
-.demo {
-	background-color: $real_white;
-	float: left;
-	width: 220px;
-	height: 190px;
-	margin-top: 10px;
-	margin-left: 10px;
-	// .mobile {
-	// 	width: 200px;
-	// 	height: 355px;
-	// }
+#examples {
+	position: relative;
+}
+
+// .large {
+// 	@media (max-width: 1100px) {
+// 		width: 350px;
+// 	}
+// 	@media (max-width: 900px) {
+// 		width: 300px;
+// 	}
+// }
+
+.small {
+	display: none;
+// 	@media (max-width: 900px) {
+// 		display: block;
+// 	}
 }

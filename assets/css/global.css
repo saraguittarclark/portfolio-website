@@ -18,15 +18,19 @@ a:hover {
 .active {
   color: #333333; }
 
-li {
-  display: inline-block;
-  list-style-type: none;
-  padding-right: 10px; }
-
 #nav {
   margin-bottom: 0;
-  padding-top: 10px;
-  float: right; }
+  padding-top: 10px; }
+  #nav li {
+    display: inline-block;
+    font-family: "Lobster", serif;
+    font-size: 2.5rem;
+    list-style-type: none; }
+  #nav li:after {
+    content: "|";
+    font-family: "Lobster"; }
+  #nav li:last-child:after {
+    content: ""; }
 
 /* Structure - WHAT PIECES DO and their QUERIES*/
 html {
@@ -55,6 +59,14 @@ body {
 .header {
   background-color: #FFFFFF;
   padding-top: 10px; }
+  @media (max-width: 820px) {
+    .header .six.columns {
+      float: left;
+      margin-left: 0px;
+      width: 98%; } }
+  @media (min-width: 820px) {
+    .header #nav {
+      float: right; } }
 
 .box {
   background-color: #FFFFFF;
@@ -90,13 +102,11 @@ body {
     .footer {
       position: relative; } }
 
-.demo {
-  background-color: #FFFFFF;
-  float: left;
-  width: 220px;
-  height: 190px;
-  margin-top: 10px;
-  margin-left: 10px; }
+#examples {
+  position: relative; }
+
+.small {
+  display: none; }
 
 /* Header */
 /* Sections */
