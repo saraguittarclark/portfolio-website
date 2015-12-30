@@ -32,26 +32,15 @@ a:hover {
   #nav li:last-child:after {
     content: ""; }
 
+#cabin {
+  font-family: "Cabin", sans-serif; }
+
 /* Structure - WHAT PIECES DO and their QUERIES*/
 html {
   background-color: #F2F2F2; }
 
 body {
   margin: 0; }
-
-.about {
-  margin-top: 20px; }
-  @media (min-width: 400px) {
-    .about img {
-      float: none; } }
-  @media (min-width: 550px) {
-    .about img {
-      float: right;
-      height: 250px; } }
-  @media (min-width: 830px) {
-    .about img {
-      float: right;
-      height: 400px; } }
 
 .hero {
   margin-top: 20px; }
@@ -105,8 +94,21 @@ body {
 #examples {
   position: relative; }
 
-.small {
-  display: none; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+#border {
+  border: solid 1px #333333; }
+
+.mobile {
+  height: 500px; }
+  @media (min-width: 1000px) {
+    .mobile {
+      margin-left: 75px; } }
+
+.movedown {
+  margin-top: 10px; }
 
 /* Header */
 /* Sections */

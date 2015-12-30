@@ -9,22 +9,21 @@ body {
 	margin: 0;
 }
 
-.about {
-	margin-top: 20px;
-	img {
-		@media (min-width: 400px) {
-			float: none;
-		}
-		@media (min-width: 550px) {
-			float: right;
-			height: 250px;
-		}
-		@media (min-width: 830px) {
-			float: right;
-			height: 400px;
-		}
-	}
-}
+// .about {
+// 	img {
+// 		@media (min-width: 400px) {
+// 			float: none;
+// 		}
+// 		@media (min-width: 550px) {
+// 			float: right;
+// 			height: 250px;
+// 		}
+// 		@media (min-width: 830px) {
+// 			float: right;
+// 			height: 400px;
+// 		}
+// 	}
+// }
 
 .hero {
 	margin-top: 20px;
@@ -90,20 +89,24 @@ body {
 
 #examples {
 	position: relative;
+} //FOOTER DESIGN ONLY//
+
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; 
 }
 
-// .large {
-// 	@media (max-width: 1100px) {
-// 		width: 350px;
-// 	}
-// 	@media (max-width: 900px) {
-// 		width: 300px;
-// 	}
-// }
+#border {
+	border: solid 1px #333333;
+}
 
-.small {
-	display: none;
-// 	@media (max-width: 900px) {
-// 		display: block;
-// 	}
+.mobile {
+	height: 500px;
+	@media (min-width: 1000px) {
+		margin-left: 75px;
+	}
+}
+
+.movedown {
+	margin-top: 10px;
 }
