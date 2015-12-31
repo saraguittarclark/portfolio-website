@@ -103,9 +103,6 @@ body {
 
 .mobile {
   height: 500px; }
-  @media (min-width: 1000px) {
-    .mobile {
-      margin-left: 75px; } }
 
 .movedown {
   margin-top: 10px; }
