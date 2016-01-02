@@ -2,11 +2,11 @@
 /* Site Variables COLORS */
 /* Typography */
 @import url(https://fonts.googleapis.com/css?family=Lobster|Cabin);
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Lobster", serif; }
-
-p {
+h1, h2, h3, h4, h5, h6, p {
   font-family: "Cabin", sans-serif; }
+
+.fancy {
+  font-family: "Lobster", serif; }
 
 a {
   color: #660066;
@@ -91,7 +91,7 @@ body {
     .footer {
       position: relative; } }
 
-#examples {
+#moving-footer {
   position: relative; }
 
 .u-max-full-width {
@@ -104,8 +104,14 @@ body {
 .mobile {
   height: 500px; }
 
+img {
+  margin-bottom: 20px; }
+
 .movedown {
   margin-top: 10px; }
+
+#logo {
+  margin-bottom: 0px; }
 
 /* Header */
 /* Sections */

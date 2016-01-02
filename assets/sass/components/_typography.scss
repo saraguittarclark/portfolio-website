@@ -1,12 +1,12 @@
 /* Typography */
 @import url(https://fonts.googleapis.com/css?family=Lobster|Cabin);
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: "Lobster", serif;
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "Cabin", sans-serif;
 }
 
-p {
-	font-family: "Cabin", sans-serif;
+.fancy {
+	font-family: "Lobster", serif;
 }
 
 a {
