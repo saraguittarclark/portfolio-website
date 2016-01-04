@@ -45,3 +45,11 @@ a:hover {
 #cabin {
 	font-family: "Cabin", sans-serif;
 }
+
+#resume-button {
+	
+	@media (min-width: 820px) {
+		float: right;
+		margin-top: 5px;
+	}
+}

@@ -35,6 +35,11 @@ a:hover {
 #cabin {
   font-family: "Cabin", sans-serif; }
 
+@media (min-width: 820px) {
+  #resume-button {
+    float: right;
+    margin-top: 5px; } }
+
 /* Structure - WHAT PIECES DO and their QUERIES*/
 html {
   background-color: #F2F2F2; }
